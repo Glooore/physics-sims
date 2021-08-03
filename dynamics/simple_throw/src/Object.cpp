@@ -17,7 +17,10 @@ std::vector<float> Object::GetPosition(void)
 {
 	return m_position;
 };
-/* std::vector<float> Object::GetVelocity(void); */
+std::vector<float> Object::GetVelocity(void)
+{
+	return m_velocity;
+};
 /* std::vector<float> Object::GetAcceleration(void); */
 /* std::vector<float> Object::GetForce(void); */
 

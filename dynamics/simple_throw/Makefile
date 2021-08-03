@@ -12,6 +12,7 @@ OBJS := $(_OBJS:%=$(OBJ_DIR)/%)
 
 INC_DIR := ./include
 LIBS := -lm
+LIBS += -lSDL2
 
 CFLAGS := -Wall 
 CFLAGS += -I$(INC_DIR)
